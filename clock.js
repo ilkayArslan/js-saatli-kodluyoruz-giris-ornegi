@@ -34,10 +34,10 @@ let zamanli = function showTime(){
     } 
     
     
-    if(hour.lenght == 1){
+    if(hour.length == 1){
         hour = "0" + `${hour}`;
     }
-    if(minutes.lenght == 1){
+    if(minutes.length == 1){
         minutes ="0" + `${minutes}`;
     }
     if(seconds.length == 1){
